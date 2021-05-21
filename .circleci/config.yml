@@ -34,11 +34,11 @@ workflows:
         filters:
           branches:
             only:
-              - master
+              - main
               - develop
       - deploy:
           requires:
             - test
           filters:
             branches:
-              only: master
+              only: main
