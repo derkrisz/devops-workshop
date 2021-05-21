@@ -1,6 +1,8 @@
 # .circleci/config.yml
 
 version: 2.1
+orbs:
+  cypress: cypress-io/cypress@7.1.0
 jobs:
   test:
     docker:
@@ -10,6 +12,7 @@ jobs:
       - run: npm install
       - run: npm test
       - run: npm run lint
+      - run: npm test:e2e
 workflows:
   version: 2.1
   build:
