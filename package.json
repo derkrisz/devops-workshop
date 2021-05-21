@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "cypress": "^7.1.0",
     "eslint": "^6.8.0",
+    "eslint-plugin-cypress": "^2.11.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
