@@ -4,7 +4,7 @@ describe('TitleBar', () => {
   });
 
   it('should have a title', () => {
-    cy.get('h1').should('contain', 'Hit Parade');
+    cy.get('h1').should('contain', 'CodeClan Hit Parade');
   });
 
   it('should have a select populated with genres', () => {
